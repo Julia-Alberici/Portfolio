@@ -259,9 +259,14 @@ h2{
 }
 
 .projects-wrapper .projects-card:nth-child(1) .projects-img{
-    background-image: url('images/drumkit.png');
-    
+    background-image: url('images/naruto.jpg');
 }
+
+/* MUDANDO COR DA BORDA DO PRIMEIRO CARD */
+.projects-wrapper .projects-card:nth-child(1) .projects-img::before{
+    border:1px solid white;
+}
+
 .projects-wrapper .projects-card:nth-child(2) .projects-img{
     background-image: url('images/tindog.png');
 }
@@ -294,6 +299,16 @@ h2{
     left: 27%;
     top:45%;
     transition:.5s;
+}
+
+/* MUDANDO COR DO TEXTO DO PRIMEIRO CARD */
+.projects-wrapper .projects-card:nth-child(1) .projects-img-txt{
+    color:white;
+}
+
+.projects-txt{
+    min-height: 220.22px;
+
 }
 
 
